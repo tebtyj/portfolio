@@ -1,5 +1,5 @@
 .banner-image {
-    background-image: url('img/bckg.gif');
+    background-image: url('img/banner.png');
     background-size: cover;
 }
 
@@ -17,10 +17,6 @@ body {
     min-height: 100vh;
 }
 
-.logo {
-    width: 70px;
-    height: 60px;
-}
 
 .header {
     position: fixed;
@@ -35,19 +31,53 @@ body {
     z-index: 100;
 }
 
-
+.header img{
+    width: 150px;
+    height: 100px;
+}
+.navbar{
+    position: relative;
+    width: 524px;
+    height: 50px;
+    background-color: #000;
+    border-radius: 8px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
 .navbar a {
     position: relative;
-    font-size: 18px;
-    color: #D16666;
-    font-weight: 500;
+    font-size: 1em;
+    color: #083D77;
+    font-weight: 700;
     text-decoration: none;
     margin-left: 40px;
+    display: inline-block;
+    padding: 0 20px;
+    z-index: 1;
+}
+.navbar span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 140px;
+    height: 100%;
+    background: linear-gradient(45deg,#74b7ff,#083D77);
+    border-radius: 8px;
 }
 
-.navbar a:hover {
-    color: #EE964B;
-    background: white;
+.navbar a:nth-child(1):hover~span {
+    left: 0;
+}
+.navbar a:nth-child(2):hover~span {
+    left: 120px;
+}
+.navbar a:nth-child(3):hover~span {
+    left: 250px;
+    width: 130px;
+}.navbar a:nth-child(4):hover~span {
+    left: 380px;
+    width: 115px;
 }
 
 .shadow-dark {
@@ -132,8 +162,8 @@ body {
     margin-top: 10px;
     display: inline-block;
     border-radius: 6px;
-    border: 2px solid #EBEBD3;
-    color: #EBEBD3;
+    border: 2px solid #e56b00;
+    color: #e56b00;
     padding: 10px 30px;
     text-decoration: none;
 
@@ -152,7 +182,7 @@ h3.hello span {
     font-family: 'Sylfaen';
     font-size: 30px;
     font-weight: 700;
-    color: #F4D35E;
+    color: #D16666;
 }
 
 h3.iam {
@@ -161,7 +191,7 @@ h3.iam {
 }
 
 .typing {
-    color: #F4D35E;
+    color: #D16666;
 }
 
 .padd-15 {
@@ -183,9 +213,10 @@ h3.iam {
 .about .about-content .about-text img {
     margin-bottom: 20px;
     border-radius: 50%;
-    border: 3px solid #D16666;
-    width: 310px;
-    height: 250px;
+    border: 2px solid #D16666;
+    object-fit: cover;
+    width: 280px;
+    height: 270px;
 }
 
 .about .about-content .about-text {
