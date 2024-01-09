@@ -11,7 +11,7 @@
 }
 
 body {
-    background: #EBEBD3;
+    background-image: url('img/bkg.png');
     align-items: flex-end;
     justify-content: flex-end;
     min-height: 100vh;

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Mobile Portfolio</title>
+    <link rel="icon" href="img/logorembg.png" type="image/png">
+    <link rel="stylesheet" href="ssGA.css">
+    <script src="https://kit.fontawesome.com/0720d0d7e4.js" crossorigin="anonymous"></script>
+
+    <style>
+        .container {
+            padding-top: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 50vh;
+        }
+
+        .image {
+            margin-left: 30px;
+            position: relative;
+            width: 440px;
+        }
+
+        .image img {
+            display: block;
+            width: 100%;
+            border: 3px solid #fff;
+            border-radius: 10px;
+        }
+
+        .wrapper {
+            margin-top: 30px;
+            margin: 110px auto;
+            width: 70%;
+        }
+
+        .wrapper img {
+            max-width: 430px;
+            float: left;
+            border: 3px solid #fff;
+            border-radius: 10px;
+            margin-right: 15px;
+        }
+        .text-box{
+            margin-top: 40px;
+        }
+        .text-box h3 {
+            font-size: 25px;
+            font-family: 'Sylfaen';
+            font-weight: 700;
+        }
+
+        .text-box p {
+            font-size: 20px;
+        }
+
+        .image-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            color: white;
+            font-family: 'Sylfaen';
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+            opacity: 0;
+            transition: opacity 0.25s;
+        }
+
+        .image-overlay:hover {
+            opacity: 1;
+        }
+
+        .image-title {
+            font-size: 2em;
+            font-weight: bold;
+        }
+
+        .section-title {
+            padding-bottom: 40px;
+        }
+
+        video{
+            width: 100%;
+            height: 400px;
+        }
+        .btn {
+            border-radius: 10px;
+            color: #fff;
+            background-color: #EE964B;
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.744);
+            -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
+            -webkit-transition-property: box-shadow, transform;
+            transition-property: box-shadow, transform;
+        }
+
+        .btn:hover {
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+            -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            border-radius: 30px;
+            padding :20px;
+            border: solid black 10px;
+            margin: 20px;
+        }
+
+        .btns{
+            border: 1px solid #F4D35E;
+            background: none;
+            padding: 10px 20px;
+            font-size: 20px;
+            cursor: pointer;
+            border-radius: 10px;
+            transition: 0.8s;
+            position: relative;
+            overflow: hidden;
+        }
+        .btn1{
+            color: #fff;
+        }
+        .btn1:hover{
+            color: #F4D35E;
+        }
+        .btns::before{
+            content: "";
+            position: absolute;
+            left: 0;
+            width: 100%;
+            height: 0%;
+            background: #F4D35E;
+            z-index: -1;
+            transition: 0.8s;
+        }
+        .btn1::before{
+            bottom: 0;
+            border-radius: 50% 50% 0 0;
+            height: 180%;
+        }
+        .btn1:hover::before{
+            height: 0%;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <img src="img/2.png" class="logo">
+        <nav class="navbar">
+            <a href="index.html#home">Home</a>
+            <a href="index.html#about">About</a>
+            <a href="index.html#work">Works</a>
+            <a href="index.html#contact">Contact</a>
+            <span></span>
+        </nav>
+    </header>
+
+    
+    <section class="design">
+        <div class="wrapper">
+            <a href="port.html#ui" class="btn btn-primary">Go Back</a>
+            <div class="section-title padd-15" style="margin-top: 20px;">
+                <h2>Mobile Portfolio</h2>
+            </div>
+            <div class="vid">
+                <video controls>
+                    <source src="vids/mobport.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                  </video>
+            </div> 
+            <div class="text-box">
+                <h3>Summary Concept:</h2>
+                <p>
+                    My mobile portfolio made with using Adobe XD, showcasing works
+                    that I had previously done. I wanted to incorporate my personality
+                    into this portfolio so that people who look at my portfolio will have
+                    a gist of what I am like.
+                </p>
+                <p>While doing this, I had more experience working with Adobe XD and had
+                    alot of fun doing it as well.
+                </p>
+                <br>
+                <h3>Theme:</h3>
+                <p>Space Theme</p>
+                <br>
+                <h3>Application used:</h2>
+                <p>Created by using only Adobe XD</p>
+                <br>
+                <a href="https://xd.adobe.com/view/14e42d7b-bb3d-4e80-a7f4-2968a4c652ae-41b7/" target="_blank">
+                    <button  class="btns btn1">Live Demo</button>
+                </a>
+                
+            </div>
+            
+        </div>
+        <br>
+        <div class="container">
+            
+            <div class="image">
+                <img src="sketch/uiux1typ.png">
+                <div class="image-overlay">
+                    <div class="image-title">Color Palette</div>
+                </div>
+            </div>
+            <div class="image">
+                <img src="sketch/uiux1sktch.png">
+                <div class="image-overlay">
+                    <div class="image-title">Sketch</div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="image">
+                <img src="sketch/uiux1sm.png">
+                <div class="image-overlay">
+                    <div class="image-title">Sitemap</div>
+                </div>
+            </div>
+            <div class="image">
+                <img src="sketch/uiux1jm.png">
+                <div class="image-overlay">
+                    <div class="image-title">Journey Map</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
