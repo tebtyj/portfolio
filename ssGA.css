@@ -7,7 +7,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "SimHei";
+    font-family: 'Poppins', sans-serif;
 }
 html{
     scroll-behavior: smooth;
@@ -159,7 +159,7 @@ body {
     flex: 0 0 60%;
     max-width: 60%;
     color: #000;
-    font-family: 'SimHei';
+    font-family: 'Poppins', sans-serif;
 }
 
 .home {
