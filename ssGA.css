@@ -1,5 +1,5 @@
 .banner-image {
-    background-image: url('img/banner.png');
+    background-image: url('img/tebbiebanner.png');
     background-size: cover;
 }
 
@@ -14,7 +14,7 @@ html{
 }
 
 body {
-    background-image: url('img/bkg.png');
+    background-image: url('img/bkg1.png');
     align-items: flex-end;
     justify-content: flex-end;
     min-height: 100vh;
@@ -120,7 +120,7 @@ body {
     content: '';
     height: 4px;
     width: 50px;
-    background-color: #D16666;
+    background-color: #03658C;
     position: absolute;
     top: 100%;
     left: 0;
@@ -130,7 +130,7 @@ body {
     content: '';
     height: 4px;
     width: 25px;
-    background-color: #D16666;
+    background-color: #03658C;
     position: absolute;
     top: 100%;
     left: 0;
@@ -192,7 +192,7 @@ h3.hello span {
     font-family: 'Sylfaen';
     font-size: 30px;
     font-weight: 700;
-    color: #780000;
+    color: #44587b;
 }
 
 h3.iam {
@@ -201,7 +201,7 @@ h3.iam {
 }
 
 .typing {
-    color: #780000;
+    color: #44587b;
 }
 
 .padd-15 {
@@ -223,7 +223,7 @@ h3.iam {
 .about .about-content .about-text img {
     margin-bottom: 20px;
     border-radius: 50%;
-    border: 2px solid #D16666;
+    border: 2px solid #5E6F7F;
     object-fit: cover;
     width: 280px;
     height: 270px;
@@ -242,7 +242,7 @@ h3.iam {
 }
 
 .about .about-content .about-text h3 span {
-    color: #d16666;
+    color: #03658C;
 }
 
 .about .about-content .about-text p {
@@ -295,7 +295,7 @@ h3.iam {
     line-height: 1.7;
     text-align: center;
     border-radius: 30px;
-    background: linear-gradient(90deg, #EE964B 50%, #f5b277 100%);
+    background: linear-gradient(90deg, #8198ad 50%, #43627F 100%);
     transition: width .5s linear;
 }
 
@@ -345,7 +345,7 @@ h3.iam {
     height: 100%;
     left: 7px;
     top: 0;
-    background-color: #D16666;
+    background-color: #43627F;
 }
 
 .about .about-content .timeline .circle-dot {
@@ -506,7 +506,7 @@ h3.iam {
     padding: 5px;
     margin-bottom: 10px;
     font-family: 'Sylfan';
-    color: #EE964B;
+    color: #43627F;
 }
 
 .projects .project-item .project-item-inner .text p {
@@ -515,7 +515,7 @@ h3.iam {
 
 .projects .project-item .project-item-inner a.btn {
     border-radius: 10px;
-    color: #EE964B;
+    color: #43627F;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
@@ -527,11 +527,11 @@ h3.iam {
     margin-top: 30px;
     background-color: #EBEBD3;
     color: black;
-    border: 2px solid #EE964B;
+    border: 2px solid #43627F;
 }
 
 .projects .project-item .project-item-inner a.btn:hover {
-    background-color: #EE964B;
+    background-color: #43627F;
     color: white;
 }
 
@@ -541,7 +541,7 @@ h3.iam {
 }
 
 .contactme .contactme-title {
-    color: #D16666;
+    color: #43627F;
     text-align: center;
     font-size: 25px;
     margin-bottom: 10px;
@@ -568,7 +568,7 @@ h3.iam {
 .contactme .contactme-info-item .icon .fas,
 .contactme .contactme-info-item .icon .fab {
     font-size: 25px;
-    color: #D16666;
+    color: #43627F;
 }
 
 .contactme .contactme-info-item h4 {
@@ -610,7 +610,7 @@ h3.iam {
     height: 50px;
     border-radius: 25px;
     background: #fff;
-    border: 1px solid #D16666;
+    border: 1px solid #43627F;
     padding: 10px 25px;
     color: var(--text-black-700);
     transition: all 0.3s ease;
@@ -639,7 +639,7 @@ h3.iam {
 }
 
 .contactme .contactme-form .btn:hover {
-    background-color: #D16666;
+    background-color: #43627F;
     color: white;
     border: 2px solid #EBEBD3;
 }
@@ -735,7 +735,7 @@ h3.iam {
 }
 /* footer */
 footer {
-    background-color: #d16666;
+    background-color: #43627F;
 }
 
 .footerContainer {
@@ -758,12 +758,12 @@ footer {
 
 .social-icon a i {
     font-size: 2em;
-    color: #D16666;
+    color: #43627F;
     opacity: 0.9;
 }
 
 .social-icon a:hover {
-    background-color: #D16666;
+    background-color: #43627F;
     transition: 0.5s;
 }
 
@@ -796,7 +796,7 @@ footerNav {
 }
 
 .footerBottom {
-    background-color: #D16666;
+    background-color: #43627F;
     padding: 20px;
     text-align: center;
 }
